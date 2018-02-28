@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <BaseDirectory>..\..\..\lib</BaseDirectory>
+    <ReleaseVersion>0.0.1</ReleaseVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\lib\SelectBox.cs" />
+    <Compile Include="..\..\..\lib\RootWindow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="netcurses">
+      <HintPath>..\..\..\assemblies\netcurses.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
