@@ -16,5 +16,8 @@
     <Reference Include="netcurses">
       <HintPath>..\..\..\assemblies\netcurses.dll</HintPath>
     </Reference>
+    <Reference Include="NetCursesLib">
+      <HintPath>..\..\..\assemblies\NetCursesLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

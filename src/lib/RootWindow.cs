@@ -41,7 +41,7 @@ namespace Piot.NetCursesUi
 			var defaultSize = new Size(WIDTH, HEIGHT);
 
 			win = new ConsoleArea(defaultSize);
-			win.Background = ConsoleColor.Blue;
+			win.Background = ConsoleColor.DarkGray;
 			win.Clear();
 			driver = new ConsoleDriver();
 			screen = new ConsoleUpdater(driver, defaultSize);
