@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 */
-﻿using System;
+﻿ using System;
 using Netcurses;
 
 namespace Piot.NetCursesUi
@@ -63,6 +63,12 @@ namespace Piot.NetCursesUi
 		public void Update()
 		{
 			screen.Update(win);
+		}
+
+		public void Close()
+		{
+			driver.Close();
+			driver = null;
 		}
 	}
 }
