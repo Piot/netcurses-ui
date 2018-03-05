@@ -9,6 +9,9 @@
   <ItemGroup>
     <Compile Include="..\..\..\lib\SelectBox.cs" />
     <Compile Include="..\..\..\lib\RootWindow.cs" />
+    <Compile Include="..\..\..\lib\WindowStack.cs" />
+    <Compile Include="..\..\..\lib\ArrayStack.cs" />
+    <Compile Include="..\..\..\lib\IUiWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="netcurses">
