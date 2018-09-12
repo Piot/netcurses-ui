@@ -32,7 +32,7 @@ namespace Piot.NetCursesUi
 	{
 		ConsoleUpdater screen;
 		ConsoleArea win;
-		ConsoleDriver driver;
+		IDriver driver;
 
 		public RootWindow()
 		{
@@ -43,7 +43,7 @@ namespace Piot.NetCursesUi
 			win = new ConsoleArea(defaultSize);
 			win.Background = ConsoleColor.DarkGray;
 			win.Clear();
-			driver = new ConsoleDriver();
+			driver = new AnsiDriver();
 			screen = new ConsoleUpdater(driver, defaultSize);
 		}
 
