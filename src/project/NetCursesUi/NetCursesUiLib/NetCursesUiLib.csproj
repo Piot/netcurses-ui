@@ -14,11 +14,11 @@
     <Compile Include="..\..\..\lib\IUiWindow.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="netcurses">
-      <HintPath>..\..\..\assemblies\netcurses.dll</HintPath>
-    </Reference>
     <Reference Include="NetCursesLib">
       <HintPath>..\..\..\assemblies\NetCursesLib.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NetCurses" Version="1.0.0" />
   </ItemGroup>
 </Project>
